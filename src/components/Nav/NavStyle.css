@@ -1,0 +1,15 @@
+header nav .btn-menu span {
+    transition: margin-right .3s ease-in-out;
+}
+header nav .btn-menu.active {
+    background-color: #212121;
+    color: aliceblue;
+}
+
+header nav div .logo {
+    transition: letter-spacing .3s ease-in-out;
+
+}
+.group .group-item-animation {
+    transition: letter-spacing .3s ease-in-out;
+}

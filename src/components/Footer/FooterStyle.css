@@ -1,0 +1,28 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    li a {
+        display: inline-flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 18px;
+        color: var(--black-);
+        transition: all .2s ease-in-out;
+        
+        svg {
+            width: 28px;
+            height: 28px;
+            fill: var(--black-);
+        }
+    }
+}
+
+ul li:hover a {
+    gap: 1.5rem;
+    letter-spacing: 2px;
+    color: var(--white-);
+
+    svg {
+        fill: var(--white-);
+    }
+}
