@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ppockie.github.io/ps_ppockie",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
